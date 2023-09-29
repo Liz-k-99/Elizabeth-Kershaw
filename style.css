@@ -69,3 +69,96 @@ li.development{
 ol{
     list-style:circle;
 }*/
+body{
+    background-color: rgb(199, 224, 244);
+}
+
+header{
+    background-color: black;
+    fill: black;
+    padding:3%;
+    margin: 0%;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    align-items:start;
+    
+}
+.cave{
+    object-position:5px 10%;
+    width: 110px;
+    height: 75px;
+    margin: 0%;
+    padding: 0%;
+}
+/*header{
+    background-image:url(images/sunset.jpg);
+}*/
+
+nav a:nth-child(1), a:nth-child(2),a:nth-child(3){
+    margin-right:2%;
+    color: wheat;
+    font-weight:800;
+    font-size: 18px;
+    text-decoration: none;
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    color: rgb(20, 21, 57);
+    font-size: 100px;
+}
+#who-am-i{ 
+display:flex;
+flex-direction: row;
+align-items: start;
+justify-content: flex-start;
+padding-right: 45%;
+padding-left: 8%;
+
+}
+.intro-container{
+    background-color: antiquewhite;
+    padding: 2%;
+    border: solid goldenrod;
+}
+
+#coding-ambitions{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 30%;
+    
+}
+.study-container{
+    background-color: antiquewhite;
+    padding:3%;
+    border: solid goldenrod;
+    margin: 5%;
+    
+}
+h2{
+    font-size: 30px;
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: 25px;
+    font-family:cursive;
+    color: rgba(116, 91, 91, 0.872);
+}
+ul, ol{
+    list-style:circle;
+}
