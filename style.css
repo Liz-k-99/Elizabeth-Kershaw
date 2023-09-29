@@ -1,148 +1,44 @@
-/*body{
-    background-color:rgb(96, 168, 144);
-    display: inline-block;
-}
-header{
-    padding-top: 3%;
-    padding-bottom: 5%;
-    margin: 0.5%;
-}
-header, img{
-  position: relative;
-}
-.sunset{
-    width:100%;
-    height:100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-header, h1{
-    color: rgba(217, 224, 222, 0.799);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin: auto;
-    font-size: 50px;
-    margin-bottom: 1%;
-    position: relative;
-    z-index: 1;
-}
-main{
-    text-align: center;
-    border:solid burlywood 1px;
-    margin: 0.5%;
-    padding: 0.5% 1% 0.5% 2%;
-}
-main, h2{
-    color: rgb(96, 73, 16);
-    font-size: 30px;
-}
-main, p{
-    color: rgb(53, 49, 49);
-    font-size: 15px;
-}
-h3{
-    text-align: left;
-    font-size: 25px;
-    color: teal;
-    margin-bottom: 0.5%;
-}
-p.hobbies{
-    text-align: left;
-}
-ul{
-    text-align: left;
-    color: rgb(59, 52, 9);
-    list-style:none;
-    margin-top: 0%;
-
-}
-li.development{
-    padding-top: 1%;
-    padding-bottom: 0.5%;
-    font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align:left;
-}
-ol{
-    list-style:circle;
-}*/
 body{
     background-color: rgb(199, 224, 244);
 }
 
 header{
     background-color: black;
-    fill: black;
-    padding:3%;
-    margin: 0%;
-}
-header nav{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content:right;
-    align-items:start;
     
 }
-.cave{
-    object-position:5px 10%;
-    width: 110px;
-    height: 75px;
-    margin: 0%;
-    padding: 0%;
+a:hover{
+    background-color:red;
 }
-/*header{
-    background-image:url(images/sunset.jpg);
-}*/
-
+header nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items:end;
+}
 nav a:nth-child(1), a:nth-child(2),a:nth-child(3){
     margin-right:2%;
     color: wheat;
     font-weight:800;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
+    border-bottom:solid white;
+    
+}
+.cave{
+    
+    width: 110px;
+    height: 75px;
+    margin-left: 2%;
+    margin-bottom:2% ;
 }
 h1{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:center;
-    color: rgb(20, 21, 57);
+    color: rgb(60, 164, 224);
     font-size: 100px;
-}
-#who-am-i{ 
-display:flex;
-flex-direction: row;
-align-items: start;
-justify-content: flex-start;
-padding-right: 45%;
-padding-left: 8%;
-
-}
-.intro-container{
-    background-color: antiquewhite;
-    padding: 2%;
-    border: solid goldenrod;
-}
-
-#coding-ambitions{
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-left: 30%;
-    
-}
-.study-container{
-    background-color: antiquewhite;
-    padding:3%;
-    border: solid goldenrod;
-    margin: 5%;
-    
 }
 h2{
     font-size: 30px;
@@ -153,12 +49,84 @@ h2{
     align-items: center;
     justify-content: center;
 }
-
 h3{
     font-size: 25px;
     font-family:cursive;
     color: rgba(116, 91, 91, 0.872);
 }
+.liz{
+    height: 450px;
+    width: 350px;
+    margin-left: 3%;
+    margin-right: 2%;
+    border: solid rgba(128, 128, 128, 0.635);
+    border-radius: 10%;
+}
+#who-am-i{ 
+display:flex;
+flex-direction: row;
+align-items: start;
+justify-content: flex-start;
+padding-left: 5%;
+}
+.intro-container{
+    background-color: antiquewhite;
+    padding: 2%;
+    border: solid goldenrod;
+    border-radius: 8%;
+}
+
+#coding-ambitions{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 3%;
+    
+}
+.sunset{
+    
+    height: 30%;
+    width: 40%;
+    margin-left:4%;
+    margin-top: 5%;
+    margin-right: 2%;
+    border: solid black;
+}
+.study-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: antiquewhite;
+    border: solid goldenrod;
+    margin: 5%;
+    
+}
+#programming-languages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: flex-start;
+    padding-left: 5%;
+    
+}
+.languages{
+    
+    background-color: rgb(236, 219, 219);
+    border: solid black; 
+    border-radius: 15%;
+}
+.tools{
+    background-color:rgb(230, 213, 35);
+    padding-right: 20%;
+    border: solid  black;
+    border-radius: 30%;   
+    padding: 3%;
+}
+
 ul, ol{
     list-style:circle;
 }
