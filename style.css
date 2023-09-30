@@ -10,11 +10,11 @@ a:hover{
     background-color:red;
 }
 header nav{
-    
     display: flex;
     flex-direction: row;
-    justify-content:end;
-    align-items:end;
+    justify-content:space-evenly;
+    align-items: end;
+    margin-bottom: 10%;
 }
 nav a:nth-child(1), a:nth-child(2),a:nth-child(3){
     margin-right:2%;
@@ -23,14 +23,12 @@ nav a:nth-child(1), a:nth-child(2),a:nth-child(3){
     font-size: 20px;
     text-decoration: none;
     border-bottom:solid white;
-    
 }
 .cave{
-    
-    width: 110px;
-    height: 75px;
-    margin-left: 2%;
-    margin-bottom:2% ;
+    width: 150px;
+    height: 120px;
+    margin-left: 1%;
+    margin-top: 2%;
 }
 h1{
     display: flex;
@@ -91,6 +89,7 @@ padding-left: 5%;
     width: 40%;
     margin-left:4%;
     margin-top: 5%;
+    margin: 3%;
     margin-right: 2%;
     border: solid black;
 }
@@ -129,4 +128,146 @@ padding-left: 5%;
 
 ul, ol{
     list-style:circle;
+}
+
+@media (max-width:750px) {
+    body{
+        background-color: rgb(199, 224, 244);
+    }
+    
+    header{
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    a:hover{
+        background-color:red;
+    }
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: end;
+        margin-bottom: 10%;
+    }
+    nav a:nth-child(1), a:nth-child(2),a:nth-child(3){
+        margin-right:2%;
+        color: wheat;
+        font-weight:800;
+        font-size: 20px;
+        text-decoration: none;
+        border-bottom:solid white;
+    }
+    .cave{
+        width: 150px;
+        height: 120px;
+        margin-left: 1%;
+        margin-top: 2%;
+    }
+    h1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+        flex-wrap: wrap;
+        flex-shrink: 50px;
+        color: rgb(60, 164, 224);
+        font-size: 50px;
+        margin-left:2% ;
+    }
+    h2{
+        font-size: 30px;
+        color: darkred;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    h3{
+        font-size: 25px;
+        font-family:cursive;
+        color: rgba(116, 91, 91, 0.872);
+    }
+    .liz{
+        height: 450px;
+        width: 350px;
+        margin-left: 3%;
+        margin-right: 2%;
+        margin-top: 2%;
+        border: solid rgba(128, 128, 128, 0.635);
+        border-radius: 10%;
+        
+    }
+    #who-am-i{ 
+    display:flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-start;
+    padding-left: 5%;
+    flex-wrap: wrap;
+    }
+    .intro-container{
+        background-color: antiquewhite;
+        padding: 2%;
+        border: solid goldenrod;
+        border-radius: 8%;
+    }
+    
+    #coding-ambitions{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-end;
+        flex-wrap: wrap;
+        align-items: center;
+        margin:3%;
+    }
+    .sunset{
+        
+        height: 50%;
+        width: 60%;
+        margin-left:4%;
+        margin-top: 5%;
+        margin: 3%;
+        margin-right: 2%;
+        border: solid black;
+    }
+    .study-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        background-color: antiquewhite;
+        border: solid goldenrod;
+        flex-wrap:wrap-reverse;
+        margin: 5%;
+        
+    }
+    #programming-languages{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: space-evenly;
+        justify-content: flex-start;
+        padding-left: 5%;
+        
+    }
+    .languages{
+        
+        background-color: rgb(236, 219, 219);
+        border: solid black; 
+        border-radius: 15%;
+    }
+    .tools{
+        background-color:rgb(230, 213, 35);
+        padding-right: 20%;
+        border: solid  black;
+        border-radius: 30%;   
+        padding: 3%;
+    }
+    
+    ul, ol{
+        list-style:circle;
+    }   
 }
