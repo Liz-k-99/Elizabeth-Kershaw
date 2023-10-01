@@ -6,17 +6,17 @@ header{
     background-color: black;
     
 }
-a:hover{
+header a:hover{
     background-color:red;
 }
 header nav{
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:end;
     align-items: end;
     margin-bottom: 10%;
 }
-nav a:nth-child(1), a:nth-child(2),a:nth-child(3){
+header nav a:nth-child(1), a:nth-child(2),a:nth-child(3){
     margin-right:2%;
     color: wheat;
     font-weight:800;
@@ -117,32 +117,68 @@ padding-left: 5%;
     background-color: rgb(236, 219, 219);
     border: solid black; 
     border-radius: 15%;
+    padding: 0.5% 1%;
+}
+#toolsHead{
+    font-size: 30px;
+    font-family:cursive;
+    color: rgba(116, 91, 91, 0.872);
+    list-style: none;
+    padding-bottom:5%;
 }
 .tools{
     background-color:rgb(230, 213, 35);
-    padding-right: 20%;
+    padding:3% 2%;
     border: solid  black;
     border-radius: 30%;   
-    padding: 3%;
 }
 
 ul, ol{
     list-style:circle;
 }
+footer{
+    background-image: url(images/cave.jpg);
+    border: 2px solid teal;
+    margin-top: 10%;
+
+}
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#contactInfo a{
+    font-size: 40px;
+    color: rgb(186, 242, 252);
+    font-weight: 200;
+    font-family:fantasy ;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-size: 30px;
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contact img{
+    height: 100px;
+    width:110px;
+    margin-top: 50%;
+}
+#contactInfo p{
+    color: rgb(254, 254, 254);
+    display: flex;
+    align-self: flex-end;
+}
 
 @media (max-width:750px) {
-    body{
-        background-color: rgb(199, 224, 244);
-    }
-    
     header{
-        background-color: black;
+        background-color: rgba(61, 57, 57, 0.751);
         display: flex;
         flex-wrap: wrap;
-        
-    }
-    a:hover{
-        background-color:red;
     }
     header nav{
         display: flex;
@@ -175,20 +211,6 @@ ul, ol{
         color: rgb(60, 164, 224);
         font-size: 50px;
         margin-left:2% ;
-    }
-    h2{
-        font-size: 30px;
-        color: darkred;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    h3{
-        font-size: 25px;
-        font-family:cursive;
-        color: rgba(116, 91, 91, 0.872);
     }
     .liz{
         height: 450px;
@@ -244,30 +266,4 @@ ul, ol{
         margin: 5%;
         
     }
-    #programming-languages{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-content: space-evenly;
-        justify-content: flex-start;
-        padding-left: 5%;
-        
-    }
-    .languages{
-        
-        background-color: rgb(236, 219, 219);
-        border: solid black; 
-        border-radius: 15%;
-    }
-    .tools{
-        background-color:rgb(230, 213, 35);
-        padding-right: 20%;
-        border: solid  black;
-        border-radius: 30%;   
-        padding: 3%;
-    }
-    
-    ul, ol{
-        list-style:circle;
-    }   
 }
